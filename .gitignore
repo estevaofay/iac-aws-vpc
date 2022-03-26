@@ -1,0 +1,17 @@
+**/.build
+**/.ssh
+**/.temp
+**/.terraform.*
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*_override.tf
+*_override.tf.json
+/output/
+/src/.terraform/
+/src/output/
+crash.log
+override.tf
+override.tf.json
+terraform.plan*
+**/*.env

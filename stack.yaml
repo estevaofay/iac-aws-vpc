@@ -1,0 +1,4 @@
+name: aws-vpc
+terraform:
+  version: 0.0.1
+  backend: aws
