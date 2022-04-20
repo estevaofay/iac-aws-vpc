@@ -5,6 +5,12 @@ terraform {
       version = "4.8.0"
     }
   }
+  backend "remote" {
+    organization = "estevaofay"
+    workspaces {
+      prefix = "iac-aws-vpc-"
+    }
+  }
 }
 
 provider "aws" {
